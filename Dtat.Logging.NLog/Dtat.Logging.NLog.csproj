@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>DTAT.Logging.NLog</PackageId>
+		<Authors>Mr. Dariush Tasdighi</Authors>
+		<Company>DTAT</Company>
+		<Product>DTAT.Logging.NLog</Product>
+		<Copyright>2021</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://DTAT.ir</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/DTAT-Framework/DTAT.Logging.NLog</RepositoryUrl>
+		<PackageTags>DTAT,Logging,Adapter,NLog</PackageTags>
+		<Description>Dariush Tasdighi Framework - Logging Adapter - Based on NLog library</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="NLog" Version="4.7.10" />
+		<PackageReference Include="DTAT.Logging" Version="1.0.0" />
+	</ItemGroup>
+
+</Project>
