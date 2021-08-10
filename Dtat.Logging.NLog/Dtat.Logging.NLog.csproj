@@ -13,11 +13,21 @@
 		<RepositoryUrl>https://github.com/DTAT-Framework/DTAT.Logging.NLog</RepositoryUrl>
 		<PackageTags>DTAT,Logging,Adapter,NLog</PackageTags>
 		<Description>Dariush Tasdighi Framework - Logging Adapter - Based on NLog library</Description>
+		<Version>1.1.0</Version>
+		<PackageIcon>DTAT03.png</PackageIcon>
+		<PackageIconUrl />
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="NLog" Version="4.7.10" />
-		<PackageReference Include="DTAT.Logging" Version="1.0.0" />
+		<PackageReference Include="DTAT.Logging" Version="1.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="C:\Users\dariu\OneDrive\Pictures\DTAT\DTAT03.png">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
 	</ItemGroup>
 
 </Project>
